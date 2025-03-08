@@ -15,7 +15,7 @@ account_sid = os.getenv("TWILIO_ACCOUNT_SID")
 auth_token = os.getenv("TWILIO_API_KEY")
 
 params = {
-    "lat": 11.368007,
+    "lat": 11.368007,  #My current location
     "lon": 77.928786,
     "appid": api_key,
     "cnt": 4,
